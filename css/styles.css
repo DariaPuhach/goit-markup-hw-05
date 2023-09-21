@@ -464,6 +464,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: var(--c-accent-green);
 }
 
+.footer-form-section{
+    margin-left: 80px ;
+}
 .footer-form-text{
     margin-bottom: 16px;
     font-weight: 500;
@@ -513,4 +516,5 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-button-icon{
     margin-left: 16px;
+    fill: var(--c-background-light);
 }
