@@ -568,9 +568,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button-close:hover +.close{
+.modal-button-close:hover + .close{
     fill: var(--c-background-light)
 }
-.modal-button-close:focus +.close{
+.modal-button-close:focus + .close{
     fill: var(--c-background-light)
 }
