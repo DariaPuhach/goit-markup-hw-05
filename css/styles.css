@@ -614,6 +614,10 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: var(--c-brand);
 }
 
+.input-name:focus .input-name-icon{
+    fill: var(--c-brand);
+}
+
 .input-name-icon{
     position: absolute;
     fill: var(--c-primary);
@@ -621,7 +625,4 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.input-name:focus .input-name-icon{
-    fill: var(--c-brand);
 }
