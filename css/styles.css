@@ -676,4 +676,30 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .checked:checked + .check-text > .check-form{
     background-color: var(--c-accent);
+    border: none;
+    fill: var(--c-primary-light);
+}
+.check-link{
+    color: var(--c-brand)
+}
+
+.form-button{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--c-background-light);
+    cursor: pointer;
+    background-color: var(--c-brand);
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button:hover .form-button:focus{
+    background-color: var(--c-accent);
 }
